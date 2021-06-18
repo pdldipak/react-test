@@ -20,7 +20,7 @@ const ButtonStyle = styled.button`
   font-weight: 500;
   margin: 4px auto;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 50px;
   &:focus {
     outline: none;
     box-shadow: none;
@@ -44,7 +44,7 @@ const ButtonStyle = styled.button`
   ${({ black }) => {
     switch (true) {
       case black:
-        return `3px solid #00000`
+        return `6px solid #00000`
       default:
         return `border:none`
     }
